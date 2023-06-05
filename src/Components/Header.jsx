@@ -1,8 +1,9 @@
 import React from "react";
+import ChecklistRtlIcon from '@mui/icons-material/ChecklistRtl';
 
 const Header = () => (
     <header>
-        <h1>Notes</h1>
+        <h1><ChecklistRtlIcon />Notes</h1>
     </header>
 );
 
